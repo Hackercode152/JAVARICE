@@ -1,36 +1,28 @@
-public class BinarySearch {
+public class LinearSearch {
 
-    public static int binarySearch(int[] arr, int target) {
-        int left = 0;
-        int right = arr.length - 1;
+    public static int search(int[] arr, int target) {
 
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
+        for (int i = 0; i < arr.length; i++) {
 
-            if (arr[mid] == target) {
-                return mid; // Target found
-            }
-
-            if (arr[mid] < target) {
-                left = mid + 1;
-            } else {
-                right = mid - 1;
+            if (arr[i] == target) {
+                return i;
             }
         }
 
-        return -1; // Target not found
+        return -1;
     }
 
     public static void main(String[] args) {
-        int[] numbers = {2, 5, 8, 12, 16, 23, 38, 56, 72};
-        int target = 23;
 
-        int result = binarySearch(numbers, target);
+        int[] arr = {10, 20, 30, 40, 50};
+        int target = 30;
+
+        int result = search(arr, target);
 
         if (result != -1) {
-            System.out.println("Element found at index: " + result);
+            System.out.println("Found at index " + result);
         } else {
-            System.out.println("Element not found.");
+            System.out.println("Not found");
         }
     }
 }
