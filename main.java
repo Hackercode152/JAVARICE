@@ -1,8 +1,9 @@
 // This is a simple Java program that demonstrates basic structures and syntax.
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("I'm Mark Cabatay!");
+        System.out.println("I'm Mark Clarence Cabatay!");
         System.out.println("I'm 18 years old!");
         System.out.println("12345678910");
         System.out.println("I live in Caloocan City!");
@@ -19,5 +20,13 @@ public class Main {
 
         System.out.println("Division");
         System.out.println("5 / 3 = " + (5 / 3.0));
+
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+        if (input.equals("hello")) {
+            System.out.println("cute ka!!");
+        } else {
+            System.out.println("cannot find");
+        }
     }
 }
