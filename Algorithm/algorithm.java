@@ -1,9 +1,6 @@
-public class LinearSearch {
-
-    public static int main(int[] arr, int target) {
-
+public class algorithm {
+    public static int search(int[] arr, int target) {
         for (int i = 0; i < arr.length; i++) {
-
             if (arr[i] == target) {
                 return i;
             }
@@ -25,4 +22,4 @@ public class LinearSearch {
             System.out.println("Not found");
         }
     }
-}       
+}
