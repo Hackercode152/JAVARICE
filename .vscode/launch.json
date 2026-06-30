@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "JAVARICE_71ce3c4c"
+        },
+        {
+            "type": "java",
             "name": "algorithm",
             "request": "launch",
             "mainClass": "algorithm",
