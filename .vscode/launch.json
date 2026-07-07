@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "increment",
+            "request": "launch",
+            "mainClass": "increment",
+            "projectName": "JAVARICE_71ce3c4c"
+        },
+        {
+            "type": "java",
+            "name": "Composition$Main",
+            "request": "launch",
+            "mainClass": "Composition$Main",
+            "projectName": "JAVARICE_71ce3c4c"
+        },
+        {
+            "type": "java",
             "name": "pseudo",
             "request": "launch",
             "mainClass": "pseudo",
