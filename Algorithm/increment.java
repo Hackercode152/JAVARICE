@@ -5,6 +5,7 @@ public class increment {
         int x = 3;
         int y = 11;
         System.out.println(" initial value of x:  + ++x ");
-        System.out.println(++x * y--);     
+        System.out.println(++x * y--); 
+         System.out.println(++x - y--);    
     }
 }
