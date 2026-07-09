@@ -8,9 +8,9 @@ public class pseudo {
         int grade = input.nextInt();
 
         if (grade >= 75) {
-            System.out.println("PASSED");
+            System.out.println("MAGALING");
         } else {
-            System.out.println("FAILED");
+            System.out.println("TANGA");
         }
     }
 }
