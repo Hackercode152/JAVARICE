@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Operation",
+            "request": "launch",
+            "mainClass": "Operation",
+            "projectName": "JAVARICE_71ce3c4c"
+        },
+        {
+            "type": "java",
+            "name": "operation",
+            "request": "launch",
+            "mainClass": "operation",
+            "projectName": "JAVARICE_71ce3c4c"
+        },
+        {
+            "type": "java",
             "name": "increment",
             "request": "launch",
             "mainClass": "increment",
