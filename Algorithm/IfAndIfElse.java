@@ -8,9 +8,11 @@ public class IfAndIfElse {
             System.out.println("PASIKAT!");
         }
 
-        // if-else statement
+        // if-else if-else statement
         if (score >= 75) {
             System.out.println("MAGALING!");
+        } else if (score >= 60) {
+            System.out.println("PWEDE PA YAN!");
         } else {
             System.out.println("UWI KANA.");
         }
