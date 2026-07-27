@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IfAndIfElse",
+            "request": "launch",
+            "mainClass": "IfAndIfElse",
+            "projectName": "JAVARICE_71ce3c4c"
+        },
+        {
+            "type": "java",
+            "name": "logic",
+            "request": "launch",
+            "mainClass": "logic",
+            "projectName": "JAVARICE_71ce3c4c"
+        },
+        {
+            "type": "java",
+            "name": "Assignment",
+            "request": "launch",
+            "mainClass": "Assignment",
+            "projectName": "JAVARICE_71ce3c4c"
+        },
+        {
+            "type": "java",
             "name": "Operation",
             "request": "launch",
             "mainClass": "Operation",
