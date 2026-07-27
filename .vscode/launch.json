@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Switch",
+            "request": "launch",
+            "mainClass": "Switch",
+            "projectName": "JAVARICE_71ce3c4c"
+        },
+        {
+            "type": "java",
             "name": "IfAndIfElseExample",
             "request": "launch",
             "mainClass": "IfAndIfElseExample",
