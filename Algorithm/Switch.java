@@ -25,11 +25,11 @@ public class Switch {
                 break;
 
             case 6:
-                System.out.println("Saturday - Cardio");
+                System.out.println("Saturday - GIN day");
                 break;
 
             case 7:
-                System.out.println("Sunday - Gin day");
+                System.out.println("Sunday - GIN day");
                 break;
 
             default:
