@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IfAndIfElseExample",
+            "request": "launch",
+            "mainClass": "IfAndIfElseExample",
+            "projectName": "JAVARICE_71ce3c4c"
+        },
+        {
+            "type": "java",
             "name": "IfAndIfElse",
             "request": "launch",
             "mainClass": "IfAndIfElse",
