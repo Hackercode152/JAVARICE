@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "drinksmenu",
+            "request": "launch",
+            "mainClass": "drinksmenu",
+            "projectName": "JAVARICE_71ce3c4c"
+        },
+        {
+            "type": "java",
+            "name": "NestediFelse",
+            "request": "launch",
+            "mainClass": "NestediFelse",
+            "projectName": "JAVARICE_71ce3c4c"
+        },
+        {
+            "type": "java",
             "name": "Switch",
             "request": "launch",
             "mainClass": "Switch",
