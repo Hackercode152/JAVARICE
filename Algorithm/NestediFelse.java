@@ -25,8 +25,8 @@ public class NestediFelse {
             } else {
                 System.out.println("You need more improvement.");
             }
-        }
-
+     } input.close();
+      
       
     }
 }
