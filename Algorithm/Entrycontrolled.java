@@ -11,10 +11,10 @@ public class Entrycontrolled {
 
         do {
 
-            System.out.println("===== MEALS MENU =====");
-            System.out.println("1. Burger");
-            System.out.println("2. Pizza");
-            System.out.println("3. Fried Chicken");
+            System.out.println("===== STREET FOOD =====");
+            System.out.println("1. Kwek-Kwek");
+            System.out.println("2. Fishball");
+            System.out.println("3. Kikiam");
             System.out.println("0. Exit");
 
             System.out.print("Choose your meal: ");
@@ -23,18 +23,18 @@ public class Entrycontrolled {
             switch (option) {
 
                 case 1:
-                    System.out.println("Meal: Burger");
+                    System.out.println("Meal: Kwek-Kwek");
                     break;
 
                 case 2:
-                    System.out.println("Meal: Pizza");
+                    System.out.println("Meal: Fishball");
                     break;
 
                 case 3:
-                    System.out.println("Meal: Fried Chicken");
+                    System.out.println("Meal: Kikiam");
                     break;
 
-                case 0:
+                case 4:
                     System.out.println("No meal selected.");
                     break;
 
@@ -42,7 +42,7 @@ public class Entrycontrolled {
                     System.out.println("Invalid input.");
             }
 
-            System.out.print("Do you want to order another meal? (yes/y/no): ");
+            System.out.print("Do you want to order another meal? (yes/or/no): ");
             ans = input.next();
 
             if (ans.equalsIgnoreCase("yes") || ans.equalsIgnoreCase("y")) {
